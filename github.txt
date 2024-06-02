@@ -1,0 +1,43 @@
+            SSH KEY ULANISH  {
+
+1.ssh-keygen 
+     va quyidagi yozuv chiqquncha enter bosiladi--
+
+     Generating public/private rsa key pair.
+Enter file in which to save the key (/home/mr_ali/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/mr_ali/.ssh/id_rsa
+Your public key has been saved in /home/mr_ali/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:prWuPjo9CjmJ1v34oOv8i1OUCM+QWXAP1cpCegr27jk mr_ali@mr
+The key's randomart image is:
++---[RSA 3072]----+
+| .=+...          |
+| =..o  .         |
+|  B o.o          |
+|.o * =           |
+|o + o   S        |
+| o.+.. + .       |
+|..*..+. .        |
+|. .E= B.         |
+|  oOBO=*.        |
++----[SHA256]-----+
+}
+  
+2. ls -la 
+    .ssh papka topiladi va cd .ssh qilib kiriladi va ls -la qilib ichida id_rsa.pub chiqadi
+    cat id_rsa.pub yozilsa ssh key qaytaradi va u keyni olib githabda tegishli joyiga paste qilinadi
+
+
+
+3. git remote add origin <git@github.com:AliAstanov/yangi.git> -- githubdan copiya qilingan link orqali remote add origin qilinyapti proyektni bog'lash
+
+4. git add .  git commit -m " commit xabar" -- qilingan uzgarishni saqlab olyabmiz git ga 
+
+5. git push -u origin master -- kompdagi malumotni githubga push qilinyapdi 
+
+
+
+
+
