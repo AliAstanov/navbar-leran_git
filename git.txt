@@ -4,7 +4,7 @@
 
 2 - git status -- gti repository holatini tekshirish 
 
-3 - git add <file_name>  or git add . -- git repository da yaratilgan papka, file va sodir bulgan uzgarishlarni gitga tanishtirish uchun 
+3 - git add <file_name>  or git add . add-A -- git repository da yaratilgan papka, file va sodir bulgan uzgarishlarni gitga tanishtirish uchun 
 
 4 - git commit -m"1- versiyasi ...malumot.." versiyani soxranit qilib comment qoldiradi
 
@@ -17,3 +17,22 @@
 7- git branch <new_branch> yangi branch qo'shadi
 
 8 - git branch checkout <branch_name> joriy branch dan boshqa  branch ga change(o'tish) qilish
+
+9 - git branch -d <branch_name> branch ni delete qilish
+
+10 - git config <user.name> usernameni tekshirish <user.email> emailni tekshirish
+
+11 - git config --global user.name "Ismingiz" ->global nom kiritish
+
+12 - git config --global user.email "email@example.com" -> global email kiritish
+
+13 - git config user.name "Ismingiz" <> git config user.email "email@example.com" faqatgina joriy loyiha uchun 
+
+14 - git log  oldingi commitlar(tarixni) ko'rish 
+
+15 - git diff - HEAD commit va joriy commit urtasidag farqni ko'rsatadi
+
+16 - git show <commit_id> shu id ga tegishli commitda qanday o'zgarishlaar qilinganini ko'rsatadi
+
+ 
+
