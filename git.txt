@@ -1,3 +1,9 @@
-1 -  git init
-2 - git status
-3 - git add <file_name> 
+GIT REPOSITORIYA -- git texnologiyasi uzining nazoratiga olgan file va papkalar tushiniladi
+
+1 -  git init   -- git repozitoriya hosil qiluvchi komanda
+
+2 - git status -- gti repository holatini tekshirish 
+
+3 - git add <file_name>  or git add . -- git repository da yaratilgan papka, file va sodir bulgan uzgarishlarni gitga tanishtirish uchun 
+
+4 - 
