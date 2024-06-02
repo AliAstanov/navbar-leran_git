@@ -1,4 +1,4 @@
-GIT REPOSITORIYA -- git texnologiyasi uzining nazoratiga olgan file va papkalar tushiniladi
+    -- GIT REPOSITORIYA -- git texnologiyasi uzining nazoratiga olgan file va papkalar tushiniladi
 
 1 -  git init   -- git repozitoriya hosil qiluvchi komanda
 
@@ -6,4 +6,14 @@ GIT REPOSITORIYA -- git texnologiyasi uzining nazoratiga olgan file va papkalar 
 
 3 - git add <file_name>  or git add . -- git repository da yaratilgan papka, file va sodir bulgan uzgarishlarni gitga tanishtirish uchun 
 
-4 - git commit -m"malumot" 
+4 - git commit -m"1- versiyasi ...malumot.." versiyani soxranit qilib comment qoldiradi
+
+5 - git checkout < shifrlangan code "yoki oxirgi versiyaga qaytmoqchi bulsa shifr urniga branch nomini yoziladi " >
+
+  --  BRANCH -- <daraxtning shoxi > repository ning filiallarini yaratishimiz mumkin
+
+6 - git branch - bu komanda xozir qaysi filialda ekanligimizni ko'rsatib beradi
+
+7- git branch <new_branch> yangi branch qo'shadi
+
+8 - git branch checkout <branch_name> joriy branch dan boshqa  branch ga change(o'tish) qilish
