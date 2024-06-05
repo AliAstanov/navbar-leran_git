@@ -8,7 +8,7 @@
 
 4 - git commit -m"1- versiyasi ...malumot.." versiyani soxranit qilib comment qoldiradi
 
-5 - git checkout < shifrlangan code "yoki oxirgi versiyaga qaytmoqchi bulsa shifr urniga branch nomini yoziladi " >
+5 - git checkout < shifrlangan code >  "yoki oxirgi versiyaga qaytmoqchi bulsa shifr urniga branch nomini yoziladi " >
 
   --  BRANCH -- <daraxtning shoxi > repository ning filiallarini yaratishimiz mumkin
 
@@ -33,6 +33,8 @@
 15 - git diff - HEAD commit va joriy commit urtasidag farqni ko'rsatadi
 
 16 - git show <commit_id> shu id ga tegishli commitda qanday o'zgarishlaar qilinganini ko'rsatadi
+
+17 - git clone <link>
 
  
 
