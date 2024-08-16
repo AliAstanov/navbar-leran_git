@@ -17,3 +17,5 @@
 7- git branch <new_branch> yangi branch qo'shadi
 
 8 - git branch checkout <branch_name> joriy branch dan boshqa  branch ga change(o'tish) qilish
+
+9 - git pull origin main --rebase "Agar siz masofaviy o'zgarishlarni lokal o'zgarishlaringizga oldin birlashtirishni va keyin o'zingizning o'zgarishlaringizni ustiga qo'shishni istasangiz:"
